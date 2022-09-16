@@ -1,0 +1,48 @@
+body{
+    background-color: #002147;
+    text-align: center;
+}
+h1{
+    font-size: 85px;
+    font-family: 'Silkscreen';
+    color: #fffacd;
+}
+.btn{
+    
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border: 7px solid black;
+    border-radius: 30px;
+    
+}
+.red{
+    background-color: red;
+    right: 500px;
+}
+.blue{
+    background-color: blue;
+    left: 500px;
+}
+
+.green{
+    background-color: green;
+    right:500px;
+    bottom: 85px;
+}
+.yellow{
+    background-color: yellow;
+    left: 500px;
+    bottom: 85px;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+.game-over{
+    background-color: red;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
